@@ -4,8 +4,9 @@ namespace Tests;
 
 use Stick\Housekeeper\Jack;
 use Stick\Service\MetadataObject;
+use PHPUnit\Framework\TestCase;
 
-class JackTest extends \PHPUnit\Framework\TestCase
+class JackTest extends TestCase
 {
     public function testSave()
     {
